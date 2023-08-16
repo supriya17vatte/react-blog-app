@@ -227,7 +227,7 @@ console.log(file,"file")
               </div>
 
               <div className="col-12 py-3 text-center">
-                <button className="btn btn-add"  type="submit" disabled={progress !==null && progress}>{id ? "Update":"Submit"}</button>
+                <button className="btn btn-add"  type="submit" disabled={progress !==null && progress < 100}>{id ? "Update":"Submit"}</button>
               </div>
               
             </form>

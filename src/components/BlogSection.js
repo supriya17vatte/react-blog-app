@@ -21,7 +21,7 @@ const BlogSection = ({
             <div className="col-md-5">
               <div className="hover-blogs-img">
                 <div className="blogs-img">
-                  <img src={imgUrl} alt={data?.title} />
+                  <img src={data?.imgUrl} alt={data?.title} />
                   <div></div>
                 </div>
               </div>

@@ -94,7 +94,6 @@ const Home = ({setActive,user}) => {
               <Tags tags={tags}/>
               <MostPopular blogs={blogs}/>
           </div>
-
       </div>
     </div>
     </div>
